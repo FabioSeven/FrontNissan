@@ -1,0 +1,97 @@
+.logo{
+    width: 200px;
+}
+
+header, li a{
+    background: #FF8247;
+    font-family: 'Unica One', cursive;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration:none; 
+}
+
+li a:hover{
+    color: #3d2004
+}
+
+.caixa-header{
+
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    clear: right;
+    clear: left;
+}
+
+.caixa-header li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.caixa-header ul{
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+
+.banner{
+    width: 100%;
+}
+
+main{
+    
+}
+
+main p {
+    height: 280px;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.caixa-produtos{
+    text-align: justify;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.title-center{
+    font-family: 'Unica One', cursive;
+    font-size: 30px;
+    color: #FF8247;
+    font-weight: bold;
+    text-decoration:none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.carros{
+    width: 50%;
+    border-radius: 50%;
+    opacity: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+    transition: 0.3s all;    
+}
+
+.carros:hover{
+    opacity: 100%;
+}
+
+
+#car1 {
+    float: right;
+}
+
+#car2 {
+    float: left;
+}
+
+
+#car3 {
+    float: right;
+}

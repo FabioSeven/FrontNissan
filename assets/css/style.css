@@ -1,9 +1,13 @@
+body{
+    line-height: 1.2;
+}
+
 .logo{
     width: 200px;
 }
 
 header, li a{
-    background: #FF8247;
+    background: #f7b500;
     font-family: 'Unica One', cursive;
     font-size: 20px;
     color: #FFFFFF;
@@ -12,7 +16,7 @@ header, li a{
 }
 
 li a:hover{
-    color: #3d2004
+    color:#00adb4;
 }
 
 .caixa-header{
@@ -48,20 +52,21 @@ main p {
 }
 
 .caixa-produtos{
-    text-align: justify;
     position: relative;
     width: 960px;
     margin: 0 auto;
+    color: #FEFEFE;
 }
 
 .title-center{
     font-family: 'Unica One', cursive;
     font-size: 30px;
-    color: #FF8247;
+    color: #f7b500;
     font-weight: bold;
     text-decoration:none;
-    margin-bottom: 20px;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .carros{
@@ -90,4 +95,73 @@ main p {
 
 #car3 {
     float: right;
+}
+
+.sobre{
+    background: #393d46;
+}
+
+.caixa-sobre{
+    background: #393d46;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    color: #FEFEFE;
+}
+
+.video{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.caixa-form{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: #f7b500;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #00adb4;
+	transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    background: #00adb4;
+    padding: 30px;
 }
